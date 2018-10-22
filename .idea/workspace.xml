@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f20676a-3aa4-4c8f-8519-68e97714bd13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/media/monmouth/server/HttpServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/media/monmouth/server/HttpServerInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/media/monmouth/server/handlers/AuthenticationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/media/monmouth/server/handlers/AuthenticationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/media/monmouth/server/HttpServerInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/media/monmouth/server/HttpServerInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/media/monmouth/server/handlers/AuthenticationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/media/monmouth/server/handlers/AuthenticationHandler.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/HttpServerInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
-              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+              <caret line="16" column="79" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="47" />
+            <state relative-caret-position="197">
+              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,13 +120,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/handlers/AuthenticationHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+            <state relative-caret-position="509">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#854#855#0" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,9 +175,9 @@
         <option value="$PROJECT_DIR$/src/main/java/media/monmouth/server/models/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/media/monmouth/server/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/media/monmouth/server/HttpServerInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/media/monmouth/server/handlers/AuthenticationHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/LoginController.java" />
       </list>
     </option>
   </component>
@@ -263,7 +261,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540174277087" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540174335926" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
@@ -619,16 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/HttpServerInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/Server.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -636,22 +624,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/handlers/AuthenticationHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        <state relative-caret-position="197">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/HttpServerInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="47" />
+        <state relative-caret-position="368">
+          <caret line="16" column="79" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/handlers/AuthenticationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
           </folding>
         </state>
       </provider>

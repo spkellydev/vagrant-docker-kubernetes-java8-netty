@@ -14,6 +14,6 @@ public class HttpServerInitializer extends ChannelInitializer<Channel> {
         pipeline.addFirst("idleStateHandler", new IdleStateHandler(60, 30, 0));
         pipeline.addLast(new HttpServerCodec());
         pipeline.addLast("aggregator", new HttpObjectAggregator(Short.MAX_VALUE));
-        pipeline.addLast(new AuthenticationHandler());
+        pipeline.addLast(new AuthenticationHandler(AuthenticationHandler.routes));
     }
 }
