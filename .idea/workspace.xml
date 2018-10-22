@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="media.monmouth:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6f20676a-3aa4-4c8f-8519-68e97714bd13" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/media/monmouth/server/HttpServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/media/monmouth/server/HttpServerInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/media/monmouth/server/handlers/AuthenticationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/media/monmouth/server/handlers/AuthenticationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/media_monmouth_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/media/monmouth/server/handlers/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/media/monmouth/server/handlers/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/media/monmouth/server/HttpServerInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/media/monmouth/server/HttpServerInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/media/monmouth/server/controllers/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/media/monmouth/server/controllers/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/media/monmouth/server/handlers/AuthenticationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/media/monmouth/server/handlers/AuthenticationHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/media/monmouth/server/handlers/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/media/monmouth/server/handlers/Handler.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,119 +30,75 @@
     <session id="232643377">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.41" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Vagrantfile" value="1" />
           <entry key="class" value="1" />
           <entry key="groovy" value="2" />
-          <entry key="java" value="49" />
-          <entry key="xml" value="2" />
+          <entry key="java" value="53" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="49" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="53" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Vagrantfile" value="29" />
           <entry key="groovy" value="324" />
-          <entry key="java" value="9377" />
-          <entry key="xml" value="38" />
+          <entry key="java" value="9405" />
+          <entry key="xml" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="324" />
-          <entry key="JAVA" value="9377" />
-          <entry key="XML" value="38" />
+          <entry key="JAVA" value="9405" />
+          <entry key="PLAIN_TEXT" value="29" />
+          <entry key="XML" value="51" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Vagrantfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="-233">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/HttpServerInitializer.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="79" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="79" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/models/Model.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/Route.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/handlers/AuthenticationHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#854#855#0" expanded="true" />
-                <element signature="e#883#884#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="436">
+              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -166,18 +135,19 @@
         <option value="$PROJECT_DIR$/src/main/java/media/monmouth/server/exceptions/HttpJsonResponseException.java" />
         <option value="$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/LogoutController.java" />
         <option value="$PROJECT_DIR$/src/test/java/media/monmouth/server/handlers/AuthenticationHandlerTest.groovy" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/media/monmouth/server/handlers/AuthenticationHandlerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/media/monmouth/server/handlers/BaseHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/Route.java" />
-        <option value="$PROJECT_DIR$/src/main/java/media/monmouth/server/handlers/Handler.java" />
         <option value="$PROJECT_DIR$/src/main/java/media/monmouth/server/models/Model.java" />
         <option value="$PROJECT_DIR$/src/main/java/media/monmouth/server/models/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/media/monmouth/server/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/media/monmouth/server/HttpServerInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/media/monmouth/server/handlers/AuthenticationHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/media/monmouth/server/handlers/Handler.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Vagrantfile" />
       </list>
     </option>
   </component>
@@ -189,12 +159,14 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="906" />
-    <option name="y" value="-29" />
-    <option name="width" value="808" />
+    <option name="x" value="905" />
+    <option name="y" value="-30" />
+    <option name="width" value="810" />
     <option name="height" value="1080" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -233,24 +205,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="monmouthmedia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monmouthmedia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monmouthmedia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monmouthmedia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="handlers" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -261,9 +215,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540174335926" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540249918758" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
@@ -421,7 +379,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18206158" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18607764" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4966533" weight="0.3292517" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -525,13 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.30.Final/netty-all-4.1.30.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -567,46 +518,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/handlers/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/models/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/LogoutController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="65" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/Route.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -617,37 +532,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/LogoutController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="69">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/Route.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/HttpServerInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="79" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/handlers/AuthenticationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="233">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#854#855#0" expanded="true" />
@@ -656,12 +558,154 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/handlers/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.30.Final/netty-all-4.1.30.Final-sources.jar!/io/netty/handler/codec/http/HttpObjectAggregator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1932">
+          <caret line="114" column="11" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/HttpServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/controllers/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/media/monmouth/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-233">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vagrantfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>media.monmouth:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>media.monmouth</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

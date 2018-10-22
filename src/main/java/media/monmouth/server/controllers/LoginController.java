@@ -21,19 +21,18 @@ public class LoginController extends Controller  {
     public String handle(String json) {
         String response = null;
         try
-        {
-            // Map our JSON to a Java object
+        {   // Map our JSON to a Java object
             final User user = (User) this.mapFromJson(json, User.class);
             // set the response to client
             this.code = HttpResponseStatus.OK;
             response = this.mapToJson(user);
-        } // Jackson related errors
+        }
         catch (JsonParseException | JsonMappingException e)
-        {
+        {   // Jackson related errors
             response = recover(e);
-        } // Implementation related error
+        }
         catch (IOException e)
-        {
+        {   // Implementation related error
             response = recover(e);
         }
         return response;

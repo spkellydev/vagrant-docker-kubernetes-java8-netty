@@ -28,19 +28,18 @@ public class Handler extends SimpleChannelInboundHandler<FullHttpRequest> {
         validateContext(ctx, msg);
         // set path and method
         routeFilters(msg);
-        endpoints.forEach((Route endpoint, Controller controller) -> {
+        endpoints.forEach((Route route, Controller controller) -> {
             // check request path against endpoint path
-            if(path.equals(endpoint.getEndpoint()))
+            if(path.equals(route.getEndpoint()))
             {
                 // check request method against endpoint method
-                if(method.equals(endpoint.getMethod()))
+                if(method.equals(route.getMethod()))
                 {
                     // get the request data
                     String jsonResponse = marshalJson(msg.content(), controller);
 
                     // set the response data
-                    ByteBuf responseBytes;
-                    responseBytes = ctx.alloc().buffer();
+                    ByteBuf responseBytes = ctx.alloc().buffer();
                     responseBytes.writeBytes(jsonResponse.getBytes());
 
                     // controller.respond
