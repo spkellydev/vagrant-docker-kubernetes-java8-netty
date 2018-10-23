@@ -3,14 +3,17 @@
 The requirements to run this box are to have the `Virtual Box Version 5.2.8` or greater and the latest version of `Vagrant` available.
 
 - [Virtual Box download](https://www.virtualbox.org/wiki/Downloads)
-
 - [Vagrant download](https://www.vagrantup.com/downloads.html)
 
 You'll want to restart your computer after the installation processes have finished.
 
 ### Vagrant up
 
+<<<<<<< HEAD
 Running on `Ubuntu/Xenial64` (Version 16.04) this box comes preloaded with port forwarding, Docker, Kubernetes, and SSH. Check `scripts/vagrant.sh` for more details about the installation process. 
+=======
+Running on `Ubuntu/Xenial64` (Version 16.04) his box comes preloaded with port forwarding, Docker, Kubernetes, and SSH. Check `scripts/vagrant.sh` for more details about the installation process. 
+>>>>>>> 35dbf700b6c98d97ca5cb053d326ef4fe9a66115
 
 For a quick starter demo, you can clone this repository. The fat JAR has already been packaged, but you can recreate this for yourself by running `mvn clean && mvn install`. The Docker container is expecting the JAR with dependencies to live in the `/out` directory. Look in the Dockerfile to configure your own JAR.
 
