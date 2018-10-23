@@ -14,7 +14,7 @@ apt-get update
 apt-get -y install docker.io
 
 # add privileges
-usermod -G docker ubuntu
+usermod -G docker vagrant
 
 #install kubernetes
 apt-get update
