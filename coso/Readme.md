@@ -9,7 +9,7 @@ You'll want to restart your computer after the installation processes have finis
 
 ### Vagrant up
 
-Running on `Ubuntu/Xenial64` (Version 16.04) this box comes preloaded with port forwarding, Docker, Kubernetes, and SSH. Check `scripts/vagrant.sh` for more details about the installation process. 
+Running on `Ubuntu/Xenial64` (Version 16.04) this box comes preloaded with port forwarding, Docker, Kubernetes, and SSH. Check `$script` in the Vagrantfile for more details about the installation process. 
 
 The **Vagrantfile** houses all the configurations for the Vagrant box. This box makes use of port forwarding from the `host 8080` to `guest 8080`. Meaning your Vagrant box will communicate over `localhost:8080`.
 
