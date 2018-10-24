@@ -11,8 +11,6 @@ You'll want to restart your computer after the installation processes have finis
 
 Running on `Ubuntu/Xenial64` (Version 16.04) this box comes preloaded with port forwarding, Docker, Kubernetes, and SSH. Check `scripts/vagrant.sh` for more details about the installation process. 
 
-For a quick starter demo, you can clone this repository. The fat JAR has already been packaged, but you can recreate this for yourself by running `mvn clean && mvn install`. The Docker container is expecting the JAR with dependencies to live in the `/out` directory. Look in the Dockerfile to configure your own JAR.
-
 The **Vagrantfile** houses all the configurations for the Vagrant box. This box makes use of port forwarding from the `host 8080` to `guest 8080`. Meaning your Vagrant box will communicate over `localhost:8080`.
 
 [Vagrantfile](https://gist.github.com/spkellydev/8ea49704039b562d5278af93847b5f5b), or from this directory -- but Vagrant must be ran from the project root to sync available folders.
