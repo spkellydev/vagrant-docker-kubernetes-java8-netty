@@ -1,0 +1,50 @@
+# export DOCKET_HOST=unix:///private/var/tmp/docker.sock
+# mvn clean install # ./coso20-common
+# maven install:install-file -Dfile=common.jar -DgroupId=coso20 -DartifactId=common -Dversion=0.0.1-SNAPSHOT -Dpackaging=jar
+# mvn package
+
+$script = <<-SCRIPT
+#!/bin/sh
+set -x
+#create new ssh key
+[[ ! -f /home/ubuntu/.ssh/mykey ]] \
+&& mkdir -p /home/ubuntu/.ssh \
+&& ssh-keygen -f /home/ubuntu/.ssh/mykey -N '' \
+&& chown -R ubuntu:ubuntu /home/ubuntu/.ssh
+#PACKAGES
+#install docker
+apt-get update
+apt-get -y install docker.io
+# add privileges
+usermod -G docker vagrant
+curl -L "https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+#jdk8
+apt-get install openjdk-8-jdk -y
+apt-get maven -y
+#install kubernetes
+apt-get update
+apt-get install -y apt-transport-https
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+echo "deb http://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee -a /etc/apt/sources.list.d/kubernetes.list
+apt-get update -y
+apt-get install -y kubectl kubeadm kubelet
+apt-get update -y
+SCRIPT
+
+
+Vagrant.configure(2) do |config|
+  config.vm.network "forwarded_port", guest: 8080, host: 8080, host_ip: "127.0.0.1"
+  #config.vm.synced_folder "./.vagrant_data", "/vagrant_data"
+        config.vm.define "kubes" do |kubes|
+                kubes.vm.box = "ubuntu/xenial64"
+    #kubes.vm.network "private_network", ip: "192.168.199.9"
+    #kubes.vm.hostname = "coso.local"
+                kubes.vm.network "forwarded_port", guest: 8080, host: 8080
+    kubes.vm.provision "shell", inline: $script
+    kubes.vm.provider "virtualbox" do |v|
+      v.memory = 4096
+      v.cpus = 2
+    end
+        end
+end
